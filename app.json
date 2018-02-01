@@ -1,0 +1,23 @@
+{
+  //小程序所有页面的路径
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  //导航样式的设置
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小石头的回忆",
+    "navigationBarTextStyle":"black"
+  },
+  //网络超时设置
+  "networkTimeout":{
+    "request":10000,
+    "downloadFile":10000
+  },
+  //底部tabBar的样式设置
+  "tabBar":{
+
+  }
+}
