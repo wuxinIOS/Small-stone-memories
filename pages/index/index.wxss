@@ -19,3 +19,11 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.nextPagesClass {
+  background-color: lightgreen;
+  margin-bottom: 100px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+}

@@ -11,3 +11,6 @@
     <text class="user-motto">{{motto}}</text>
   </view>
 </view>
+
+<button class='nextPagesClass' bindtap='nextPages'>GO</button>
+

@@ -1,7 +1,6 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
 Page({
   data: {
     motto: 'Hello 小石头',
@@ -9,6 +8,13 @@ Page({
     hasUserInfo:false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+
+  nextPages:function () {
+    wx.navigateTo({
+      url: '../wx_1/wx_1',
+    })
+  },
+
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({

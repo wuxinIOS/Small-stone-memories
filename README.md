@@ -24,7 +24,13 @@ bind* / catch* --- EventHandler -----组件你的事件
 基础组件分为七大类:
 一、视图容器(View Container)
   1.View(视图容器)
+    属性：
+    hover-class -- String -- 指定按下去的样式类
+    hover-stop-propagation -- Boolean -- 默认值：false -- 指定是否阻止本节点的父节点出现点击态
+    hover-start-time -- Number -- 默认值：50 -- 按住后多久出现点击态，单位毫秒
+    hover-stay-time -- Number -- 默认值：400 -- 手指松开后点击态保留时间，单位毫秒
   2.scroll-view(可滚动视图容器)
+    属性：
   3.swiper(滑块视图容器)
 
 二、基础内容(Basic Content)
@@ -35,7 +41,7 @@ bind* / catch* --- EventHandler -----组件你的事件
 三、表单（Form）
   1.button(按钮)
   2.form(表单)
-  3.input(输入框
+  3.input(输入框)
   4.checkbox(多项选择器)
   5.radio(单项选择器)
   6.picker(列表选择器)
