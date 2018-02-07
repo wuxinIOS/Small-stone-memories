@@ -1,0 +1,6 @@
+<!-- study -->
+<view>
+  <button bindtap='goToView'>视图容器</button>
+  <button bindtap='goToBasiContent'>基础内容</button>
+  <button bindtap='goToFormControl'>表单组件</button>
+</view>

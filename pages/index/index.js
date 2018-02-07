@@ -11,7 +11,7 @@ Page({
 
   nextPages:function () {
     wx.navigateTo({
-      url: '../wx_1/wx_1',
+      url: '../WX/study/study',
     })
   },
 

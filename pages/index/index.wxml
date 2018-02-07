@@ -12,5 +12,5 @@
   </view>
 </view>
 
-<button class='nextPagesClass' bindtap='nextPages'>GO</button>
+<button class='nextPagesClass' bindtap='nextPages'>学习之路</button>
 

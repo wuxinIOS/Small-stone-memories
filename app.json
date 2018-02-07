@@ -3,7 +3,11 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/wx_1/wx_1"
+    "pages/WX/study/study",
+    "pages/WX/wx_1/wx_1",
+    "pages/WX/basicContent/basicContent",
+    "pages/WX/formControl/formControl"  
+    
   ],
 
   "window":{

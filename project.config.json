@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.1",
 	"appid": "wx1b5624302a5205d4",
-	"projectname": "%E5%B0%8F%E7%9F%B3%E5%A4%B4%E7%9A%84%E5%9B%9E%E5%BF%86",
+	"projectname": "demo",
 	"isGameTourist": false,
 	"condition": {
 		"search": {

@@ -35,6 +35,7 @@ bind* / catch* --- EventHandler -----组件你的事件
 
 二、基础内容(Basic Content)
   1.icon(图标)
+  
   2.text(文字)
   3.progress(进度条)
 

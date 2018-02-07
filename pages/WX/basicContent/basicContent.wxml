@@ -1,0 +1,40 @@
+<!--pages/WX/basicContent/basicContent.wxml-->
+<!-- <text>pages/WX/basicContent/basicContent.wxml</text> -->
+
+<view class='group'>
+  <view>icon的类型</view>
+  <view>
+    <block wx:for="{{iconType}}">
+      <icon type='{{item}}' size='40' color='red'></icon>
+    </block>
+  </view>
+</view>
+
+
+<view class='group'>
+  <view>icon的颜色</view>
+  <block wx:for="{{iconColor}}">
+    <icon type='success' size='40' color='{{item}}'></icon>
+  </block>
+</view>
+
+<view class='group'>
+  <view>icon的大小设置</view>
+  <block wx:for="{{iconSize}}">
+    <icon type='clear' size='{{item}}' color='orange'></icon>
+  </block>
+</view>
+
+<view>text组件</view>
+<view class='btn-area'>
+  <view class='body-view'>
+    <text>{{text}}</text>
+    <button bindtap='addLine'>addLine</button>
+    <button bindtap='removeLine'>removeLine</button>
+  </view>
+</view>
+
+<view>进度条</view>
+<view>
+  <progress show-info='true' stroke-width='6' percent='{{progressValue}}' activeColor='red' backgroundColor='blue' active='true' active-mode = "forwards" bindtap='changProgressValue'>完成比</progress>
+</view>
